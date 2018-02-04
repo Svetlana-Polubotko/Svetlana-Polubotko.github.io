@@ -31,14 +31,23 @@
 	margin-top: 20px;
  }
  .header-button{
-box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+display: inline-block;
+text-decoration: none;
+box-shadow: 10px 17px 34px 6px #696969;
 border-radius: 50px;
 background-color: #ffffff;
-color: #072b6f;
+color: #696969;
 font-size: 18px;
 font-weight: 700;
 padding: 17px 55px; 
 margin-top: 13px;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
+ }
+ .header-button:hover{
+ 	-webkit-box-shadow: none;
+ 	box-shadow: none;
  }
  header small{`
 font-size: 12px;
@@ -47,6 +56,7 @@ text-align: center;
 margin-top: 9px;
  }
  .header-button-block{
+ 	display: inline-block;
  	max-width:210px;
  	margin-bottom: 40px;
  	
@@ -73,14 +83,14 @@ margin-top: 9px;
  }
 
 .portfolio-title{
- 	color: #072b6f;
+ 	color: #696969;
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	
 }
 .portfolio-subtitle{
-	color: #7bb9ff;
+	color: #8f8f8f;
 	font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -100,12 +110,12 @@ margin-top: 9px;
 	font-weight: 400;
 }
 .portfolio-block h3{
-	color: #072b6f;
+	color: #696969;
 	font-size: 18px;
 	text-transform: uppercase;
 }
 .portfolio-block a{
-	color: #072b6f;
+	color: #696969;
 	font-size: 14px;
 	font-weight: 400;
 	text-decoration: underline;
@@ -150,6 +160,14 @@ footer p{
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 15px 40px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+
+}
+.footer-button:hover{
+	background-color: #fff;
+	color:#FFB6C1;
 
 }
 @media (max-width: 1200px){
@@ -202,5 +220,6 @@ footer p{
 	}
 	footer-button{
 	text-align: center;
+	margin: 0 auto; 
 	}
 }

@@ -15,6 +15,7 @@
 		<!-- Заголовок на вкладке в браузере -->
 		<title></title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css ">
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		 <link rel="stylesheet" href="css/bootstrap-grid.css">
@@ -26,17 +27,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-7">
-					<img class="header-img" src="img/source.gif">
+					<img class="header-img wow fadeIn" src="img/source.gif">                        
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-xl-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Полуботько Светлана</h1>
-					<p class="header-subtitle">Котолюб<br>
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s"> Полуботько Светлана</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Котолюб<br>
 Разработка сайтов с котами</p>	
-					<div class="header-button-block">
-						<button class="header-button">Связаться</button>
-						<small>*Это бесплатно</small>
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
+						<a href="https://www.facebook.com/profile.php?id=100001511487395" class="header-button">Связаться</a>
+						<small class="wow fadeInRightBig" data-wow-delay="0.5s">*Это бесплатно</small>
 					</div>
 					
 				</div>
@@ -59,7 +60,7 @@
 							<div class="portfolio-block-text">
 						 	<h3>жизнь без кота</h3>
 						 	<p class="portfolio-text">Если у тебя есть кот, тебе никогда не придется скучать! Коты - постоянные источники позитива и материала для лучших фото и видео. Теперь ты смело можешь заводить аккаунт на YouTube и собирать миллионные просмотры. Ведь с каждым днем эти милые существа удивляют тебя все больше и больше.</p>
-						 	<a href="#">Смотреть котиков</a>
+						 	<a href="https://www.youtube.com/watch?v=mK72EwuxZAU">Смотреть котиков</a>
 						 	
 						 	</div>
 						</div> 
@@ -72,7 +73,7 @@
 						<div class="portfolio-block-text">
 							<h3>Котомания</h3>
 							<p class="portfolio-text">«Коты милые. Страсть ко всему няшному, такому миленькому, замечательному – характеристика нашего инфантильного времени. Люди просто хотят получить приятные впечатления»<br></p>
-							<a href="#">Смотреть котиков</a>
+							<a href="https://www.youtube.com/watch?v=mK72EwuxZAU">Смотреть котиков</a>
 						</div>
 						</div>
 					</div>
@@ -90,10 +91,10 @@
 		  		<div class="col-md-4">
 		  			<div class="social-block">
 		  				<p>Подпишитесь:</p>
-		  				 <a href="#"><img src="img/logo/facebook-logo-button.png" alt="facebook"></a>
-		  				 <a href="#"><img src="img/logo/vk-social-logotype.png" alt="vk"></a>
-		  				 <a href="#"><img src="img/logo/telegram-symbol.png" alt="telegram"></a>
-		  				 <a href="#"><img src="img/logo/youtube-symbol.png" alt="youtube "></a>
+		  				 <a href="#" class="wow fadeInDown" data-wow-delay="0.1s" ><img src="img/logo/facebook-logo-button.png" alt="facebook"></a>
+		  				 <a href="#" class="wow fadeInDown" data-wow-delay="0.2s"><img src="img/logo/vk-social-logotype.png"  alt="vk"></a>
+		  				 <a href="#" class="wow fadeInDown" data-wow-delay="0.3s"><img src="img/logo/telegram-symbol.png"  alt="telegram"></a>
+		  				 <a href="#" class="wow fadeInDown" data-wow-delay="0.4s"><img src="img/logo/youtube-symbol.png"  alt="youtube "></a>
 		  			</div>
 		  			
 		  		</div>
@@ -111,6 +112,10 @@
 		  <!-- /.container -->
 		
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
  
 
 </body>
